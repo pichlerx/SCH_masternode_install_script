@@ -47,8 +47,8 @@ if [[ $DOSETUP =~ "y" ]] ; then
   sudo echo "/var/swap.img none swap sw 0 0" >> /etc/fstab
   cd
 
-  wget https://schillingcoin.org/download/Schillingcoin-1.3.0.0-linux.tar.gz
-  tar -xvzf Schillingcoin-1.3.0.0-linux.tar.gz
+  wget http://www.schillingcoin.org/download/SCH_v2.0/SCH-2.0.0-ubuntu-daemon.tar.gz
+  tar -xvzf SCH-2.0.0-ubuntu-daemon.tar.gz
   chmod 755 ./schillingcoin*
   mv schillingcoin* /usr/local/bin/
 
