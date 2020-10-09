@@ -2,4 +2,4 @@
 
 to install the SCH Masternode Wallet on your new VPS just copy this command in your console and hit enter:
 
-`wget https://schillingcoin.org/download/installMN_1.3.0.sh && chmod 755 installMN_1.3.0.sh && ./installMN_1.3.0.sh`
+`wget https://schillingcoin.org/download/installMN && chmod 755 installMN && ./installMN.sh`
